@@ -1,0 +1,93 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+/frontend/node_modules
+/backend/node_modules
+
+# Build directories
+frontend/dist/
+backend/dist/
+build/
+
+# Environment variables
+frontend/.env
+backend/.env
+.env
+
+# TypeScript
+frontend/*.tsbuildinfo
+backend/*.tsbuildinfo
+
+# Parcel cache (if you use Parcel)
+frontend/.cache/
+frontend/.parcel-cache/
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# macOS files
+.DS_Store
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage directory used by testing tools
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (if you use Parcel)
+frontend/.cache/
+frontend/.parcel-cache/
+
+# Optional Stylelint cache
+.stylelintcache
+
+# temporary folders used by Docker
+.snyk
+
+# VS Code directories and files
+.vscode/
+.history/
+
+# TSLint
+tslint.json
+
+# TypeScript cache
+frontend/*.tsbuildinfo
+backend/*.tsbuildinfo
